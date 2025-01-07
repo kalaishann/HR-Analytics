@@ -126,7 +126,7 @@ for ex:
 ![Created a Workspace in POWER BI SERVICE](https://github.com/user-attachments/assets/632830ba-629f-4662-a051-f18934274ffd)
 
 - Publishing on POWER BI service by selecting appropriate workspace.
-- 
+  
 ![Uploading PUBLISHING HR ANALYTICS REPORT IN POWER BI SERVICE.png…]()
 
 ![Published sucessfully](https://github.com/user-attachments/assets/addfb172-848d-4019-8827-ecf3b56d522f)
