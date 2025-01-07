@@ -6,7 +6,8 @@
 -  The company has undergone changes in its organizational structure or operations, Which have led to the removal of certain employees.Board decided that employees those service years exceed 18 will be terminated.
 
 #### DATA TRANSFORMATION IN POWER QUERY:
-- PREPROCESSING
+#### PREPROCESSING
+
 ![PREPROCESSING](https://github.com/user-attachments/assets/a55a6572-2861-433c-b313-a23003388c98)
 
 ![Get data into power bi](https://github.com/user-attachments/assets/5d1f315a-0a20-4769-a118-f3f941396291)
