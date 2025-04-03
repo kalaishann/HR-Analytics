@@ -73,7 +73,8 @@
 - we can do that by selecting ENTER DATA in POWER VIEW. Once the All measure table have been created i started creating measure like by look what are all the fields has Summation symbol we could turn that in to measures like 
 
 for ex: 
-     - 2I have created MEASURESinsted of calculated column for better optimization, we can reuse this measure to avoid repeated calculation as well.
+     - I have created MEASURES insted of calculated column for better optimization, we can reuse this measure to avoid repeated calculation as well.
+     
      1. TOTAL EMP = COUNT(EMP ID) will return no of emp in the org.
 
 ![Measures - Total Emp](https://github.com/user-attachments/assets/aad292d3-de67-447e-813e-6a028d3301e9)
