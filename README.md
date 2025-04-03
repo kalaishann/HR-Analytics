@@ -12,7 +12,7 @@
 
 ![Get data into power bi](https://github.com/user-attachments/assets/5d1f315a-0a20-4769-a118-f3f941396291)
 
-- If we confused which datatype to choose always go to transform tab and select detect data type - power query automatically assign data type however i preferred to do it in manually for safer side.
+- From transform tab and select detect data type - power query automatically assign data type however i preferred to do it in manually for safer side.
 
 - IF i don't want any of the column - i just go to VIEW tab and select GO TO COLUMN, it will list out the columns in the file so that we can simply uncheck the columns we don't need for our analysis in this way we can improve our data optimization.
 
