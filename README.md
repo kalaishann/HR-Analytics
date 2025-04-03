@@ -73,12 +73,15 @@
 - we can do that by selecting ENTER DATA in POWER VIEW. Once the All measure table have been created i started creating measure like by look what are all the fields has Summation symbol we could turn that in to measures like 
 
 for ex: 
-     
+     - 2I have created MEASURESinsted of calculated column for better optimization, we can reuse this measure to avoid repeated calculation as well.
      1. TOTAL EMP = COUNT(EMP ID) will return no of emp in the org.
 
 ![Measures - Total Emp](https://github.com/user-attachments/assets/aad292d3-de67-447e-813e-6a028d3301e9)
 
      2. MALE COUNT = CALCULATE([TOTAL EMP],HR_DATA[GENDER]="MALE")
+     - Here i have used TOTAL EMP measure directly instead of recalculating also i have applied filter condition for Gender=Male.
+     
+        CALCULATE IN DAX is SAME as SUMIF function in EXCEL / GROUP BY in SQL.
 
 ![MEASURE FOR MALE COUNT](https://github.com/user-attachments/assets/df2f369d-3b27-4d45-9bfa-1cf94208cd60)
 
