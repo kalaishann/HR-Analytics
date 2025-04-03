@@ -79,6 +79,7 @@ for ex:
 ![Measures - Total Emp](https://github.com/user-attachments/assets/aad292d3-de67-447e-813e-6a028d3301e9)
 
      2. MALE COUNT = CALCULATE([TOTAL EMP],HR_DATA[GENDER]="MALE")
+     
      - Here i have used TOTAL EMP measure directly instead of recalculating also i have applied filter condition for Gender=Male.
      
         CALCULATE IN DAX is SAME as SUMIF function in EXCEL / GROUP BY in SQL.
@@ -130,7 +131,9 @@ for ex:
 
 - Publishing on POWER BI service by selecting appropriate workspace.
   
+  
 ![Uploading PUBLISHING HR ANALYTICS REPORT IN POWER BI SERVICE.png…]()
+
 
 ![Published sucessfully](https://github.com/user-attachments/assets/addfb172-848d-4019-8827-ecf3b56d522f)
 
