@@ -14,13 +14,13 @@
 
 - From transform tab and select detect data type - power query automatically assign data type however i preferred to do it in manually for safer side.
 
-- IF i don't want any of the column - i just go to VIEW tab and select GO TO COLUMN, it will list out the columns in the file so that we can simply uncheck the columns we don't need for our analysis in this way we can improve our data optimization.
+- In large dataset it's difficult to find the columns for that we can use VIEW tab and select GO TO COLUMN, it will list out the columns in the file so that we can simply uncheck the columns we don't need for our analysis in this way we can improve our data optimization.
 
   
 ![Go to column](https://github.com/user-attachments/assets/a532efcb-3bcd-4846-a914-300aef553a00)
 
 - EXPLORATORY DATA ANALYSIS
-- I have noticed performance rating field has 2 values 3 & 4.However i need to know what 3 & 4 means.3 is for high performance and 4 is for low performance. we want that detail also should included in our analysis so i am gonna use ADD COLUMN tab to add this field values by using CONDITIONAL COLUMN - there i could give in which column i am to refer to do this conditional & give the conditions like if the value is 3 then o/p is high performance else low performance since we have only values.
+- Performance rating field has TWO values 3 & 4.However i need to know what 3 & 4 means.Converting numeric value to categorical data makes sense to show.So, here i have assign 3 is for high performance and 4 is for low performance. we want that detail also should included in our analysis so i am gonna use ADD COLUMN tab to add this field values by using CONDITIONAL COLUMN - Here we have to mention what is our NEW COLUMN NAME & which column we were applying the condition & give the conditions/rules like if the value is 3 then o/p is high performance else low performance since we have only TWO DISTINCT values.
 
 ![Data exploration analysis](https://github.com/user-attachments/assets/1acb3d98-4202-478e-96c5-9ce48848f1ec)
 
